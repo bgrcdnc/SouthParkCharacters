@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">South Park Characters</string>
+    <string name="stan">stan</string>
+    <string name="kyle">kyle</string>
+    <string name="eric">eric</string>
+    <string name="kenny">kenny</string>
+    <string name="tooltip">Click on a picture\nto show character details</string>
+    <string name="tooltip_land">Click on a picture to show character details</string>
+</resources>
