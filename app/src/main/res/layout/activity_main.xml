@@ -25,6 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
         android:gravity="center"
+        android:onClick="easterEgg"
         android:text="@string/tooltip"
         android:textColor="@color/material_dynamic_neutral60"
         android:textSize="20sp"

@@ -13,6 +13,9 @@
         android:theme="@style/Theme.LayoutPracticeReal"
         tools:targetApi="31">
         <activity
+            android:name=".Goodbye"
+            android:exported="false" />
+        <activity
             android:name=".CharacterDetails"
             android:exported="false" />
         <activity

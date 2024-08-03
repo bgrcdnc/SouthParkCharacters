@@ -13,16 +13,18 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:text="charNameTemp"
-        android:textSize="24dp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/charImg"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="32dp"
+        android:importantForAccessibility="no"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/charName"
@@ -36,7 +38,8 @@
         android:text="Nickname: "
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/firstAppear"
-        app:layout_constraintTop_toBottomOf="@+id/charImg" />
+        app:layout_constraintTop_toBottomOf="@+id/charImg"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/firstAppear"
@@ -47,7 +50,8 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nickname" />
+        app:layout_constraintTop_toBottomOf="@+id/nickname"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/createdBy"
@@ -57,7 +61,8 @@
         android:text="Created By: "
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/firstAppear"
-        app:layout_constraintTop_toBottomOf="@+id/firstAppear" />
+        app:layout_constraintTop_toBottomOf="@+id/firstAppear"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/voicedBy"
@@ -67,7 +72,8 @@
         android:text="Voiced By: "
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/createdBy"
-        app:layout_constraintTop_toBottomOf="@+id/createdBy" />
+        app:layout_constraintTop_toBottomOf="@+id/createdBy"
+        tools:ignore="HardcodedText" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

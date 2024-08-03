@@ -6,4 +6,5 @@
     <string name="kenny">kenny</string>
     <string name="tooltip">Click on a picture\nto show character details</string>
     <string name="tooltip_land">Click on a picture to show character details</string>
+    <string name="goodbye">Goodbye</string>
 </resources>
